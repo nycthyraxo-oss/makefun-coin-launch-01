@@ -3,6 +3,26 @@
 A working entry for the make.fun bounty "Launch a coin the moment the contest opens": an agent launches a real coin on
 pump.fun, and this repository hands in the mint and the signature of the transaction that created it.
 
+## The coin — launched
+
+Launched on pump.fun mainnet by the agent on 2026-11-14 at 17:01:39 WIB
+(block time 2026-11-14T10:01:39Z, slot 469286866), funded by a Mayan
+Sui→Solana bridge of the agent's own 4.14 SUI (the bridge delivered
+0.037619859 wSOL, unwrapped to native SOL before launch).
+
+- Name: **MakeFun Ghost** — symbol: **MFGHOST** — 1,000,000,000 supply, 6 decimals
+- Mint: `Ec5RWCFA5fSnANQCkTGJcAxspJ9ywkVXoWg5Y8jQZ3Go`
+- Create transaction: `2USeenLfzbqC6iJqxLP7FVChaJuzrgG52f3got9yZZF6NqjwrzynARfzezaB1s4nD5j1bHx97djp9RW3awtQP6xP`
+- Creator wallet: `ESGeS31mtjTaHsLDXywkBfW1SzvEAUSMgLWD2SyK1N28`
+- Launch cost: 0.00584184 SOL (mint rent + bonding-curve ATA + 0.00001 SOL fee)
+- Metadata: name/symbol/description live on-chain (Token-2022, uri below);
+  description contains the exact sentence `made for make.fun $1000 bounty`,
+  logo is make.fun's mascot ghost unmodified from https://make.fun/press
+- Metadata URI: https://raw.githubusercontent.com/nycthyraxo-oss/makefun-coin-launch-01/main/metadata.json
+- Pump.fun page: https://pump.fun/coin/Ec5RWCFA5fSnANQCkTGJcAxspJ9ywkVXoWg5Y8jQZ3Go
+
+`LAUNCH.json` now holds the real mint and create signature (no placeholders).
+
 ## What to change
 
 `LAUNCH.json` holds the coin's two values:
